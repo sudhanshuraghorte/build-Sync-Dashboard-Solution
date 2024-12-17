@@ -1,0 +1,154 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Project Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Construction Project Monitoring Dashboard</h1>
+    </header>
+    <main>
+        <section class="project-overview">
+            <h2>Project Overview</h2>
+            <ul>
+                <li>Project Name: <span id="project-name"></span></li>
+                <li>Progress: <span id="project-progress"></span>%</li>
+                <li>Schedule: <span id="project-schedule"></span></li>
+                <li>Budget: $<span id="project-budget"></span></li>
+                <li>Quality: <span id="project-quality"></span>%</li>
+                <li>Safety: <span id="project-safety"></span>%</li>
+            </ul>
+
+        </section>
+        <section class="progress-tracking">
+            <h2>Progress Tracking</h2>
+            <canvas id="progress-chart"></canvas>
+        </section>
+        <section class="budget-management">
+            <h2>Budget Management</h2>
+            <canvas id="budget-chart"></canvas>
+        </section>
+        <section class="quality-control">
+            <h2>Quality Control</h2>
+            <canvas id="quality-chart"></canvas>
+        </section>
+        <section class="safety-monitoring">
+            <h2>Safety Monitoring</h2>
+            <canvas id="safety-chart"></canvas>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Project Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Construction Project Monitoring Dashboard</h1>
+    </header>
+    <main>
+        <section class="project-entry">
+            <h2>Enter Project Details</h2>
+            <form id="project-form">
+                <label for="project-name">Project Name:</label>
+                <input type="text" id="project-name" name="project-name" required>
+
+                <label for="project-progress">Progress (%):</label>
+                <input type="number" id="project-progress" name="project-progress" min="0" max="100" required>
+
+                <label for="project-schedule">Schedule:</label>
+                <input type="text" id="project-schedule" name="project-schedule" required>
+
+                <label for="project-budget">Budget ($):</label>
+                <input type="number" id="project-budget" name="project-budget" required>
+
+                <label for="project-quality">Quality (%):</label>
+                <input type="number" id="project-quality" name="project-quality" min="0" max="100" required>
+
+                <label for="project-safety">Safety (%):</label>
+                <input type="number" id="project-safety" name="project-safety" min="0" max="100" required>
+
+                <button type="submit">Submit Project</button>
+            </form>
+        </section>
+
+        <section class="project-overview">
+            <h2>Project Overview</h2>
+            <ul id="project-list">
+                //Project details will be displayed here 
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Project Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Construction Project Monitoring Dashboard</h1>
+    </header>
+    <main>
+        <section class="project-entry">
+            <h2>Enter Project Details</h2>
+            <form id="project-form">
+                <label for="project-name">Project Name:</label>
+                <input type="text" id="project-name" name="project-name" required>
+
+                <label for="project-progress">Progress (%):</label>
+                <input type="number" id="project-progress" name="project-progress" min="0" max="100" required>
+
+                <label for="project-schedule">Schedule:</label>
+                <input type="text" id="project-schedule" name="project-schedule" required>
+
+                <label for="project-budget">Budget ($):</label>
+                <input type="number" id="project-budget" name="project-budget" required>
+
+                <label for="project-quality">Quality (%):</label>
+                <input type="number" id="project-quality" name="project-quality" min="0" max="100" required>
+
+                <label for="project-safety">Safety (%):</label>
+                <input type="number" id="project-safety" name="project-safety" min="0" max="100" required>
+
+                <button type="submit">Submit Project</button>
+            </form>
+        </section>
+
+        <section class="project-overview">
+            <h2>Project Overview</h2>
+            <ul id="project-list">
+                // Project details will be displayed here
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+-->
